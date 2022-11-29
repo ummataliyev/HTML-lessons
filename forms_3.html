@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms third lesson</title>
+    </head>
+    <body>
+        <form action="/server.php" method="get">
+            <label for="usernmae">Username</label>
+            <input type="text" name="username" id="username"> <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"> <br><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"> <br><br>
+            <label for="date">Date of birth</label>
+            <input type="date" name="date" id="date"> <br><br>
+            <label for="student">Are you student</label>
+            <input type="checkbox" name="student" id="student"> <br><br>
+            <hr>
+            <label for="male">Male</label>
+            <input type="radio" name="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="female" value="female"><br><br>
+            <label for="passport">Passport</label>
+            <input type="file" name="passport" id="pasport"> <br><br>
+            <hr>
+            <label for="staj">Experience (year)</label>
+            <select name="experience" id="tajriba">
+                <option value="0">Not experience</option>
+                <option value="1">A year</option>
+                <option value="2">More then 2 years</option>
+            </select>
+            <br><br>
+            <label for="About">About you</label> <br>
+            <textarea id="About" name="about" rows="10" cols="100"></textarea><br><br>
+            <button type="submit"><b>Register</b></button>
+        </form>
+    </body>
+</html>
